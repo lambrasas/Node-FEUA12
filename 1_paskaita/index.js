@@ -1,14 +1,17 @@
 console.log("Hello, my name is Linas")
 const express =require("express") //importuojam express
 const app=express();//SUkuriam express aplikacija
+const cors= require("cors")
 const port = 3000;
 
+app.use(cors())
 //sukuriam route/kelia "/" kuriuo uzejus grazinsim (GET metodas) teksta "Hello World"
 app.get("/",(req,res)=>{
     res.send("Hello world")
 })
 
 const cars=["Audi","BWM","VW"]
+
 app.get("/cars",(req,res)=>{
     res.send(cars)
 })
