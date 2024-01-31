@@ -1,5 +1,7 @@
 # Node.js introductions
 
+module.exports=data = exportas
+
 dir -windows
 ls-atvaizduoja visus folderio failus(cmd windows)
 cd - pereina i kita folderi pvs cd Windows
