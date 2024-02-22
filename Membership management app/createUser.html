@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="createUser.css">
+    <script defer src="createUser.js"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html">Memberships</a>
+        <a href="users.html">Users</a>
+    </header>
+    <h1>Create User</h1>
+    <div class="createUserContainer">
+        <div class="nameDiv">
+            <div class="nameInputContainer">
+                <label for="firstName">First Name <b>*</b></label>
+                <input placeholder="First Name" type="text" id="firstName">
+            </div>
+            <div class="surnameInputContainer">
+                <label for="lastName">Last Name <b>*</b></label>
+                <input placeholder="Last Name" type="text" id="lastName">
+            </div>
+        </div>
+        <div class="emailDiv">
+            <div class="emailInputContainer">
+                <div class="emailLine">
+                    <label for="emailInput">Email Address <b>*</b></label>
+                    <input id="emailInput" placeholder="Email Adress" type="email">
+                </div>
+                <div class="invisDiv">
+                    <label for="invis">Invis</label>
+                    <input id="invis" type="text">
+                </div>
+                
+            </div>
+        </div>
+        <div class="membershipDiv">
+            <div class="membershipInputContainer">
+                <label for="membershipInput">Change Membership</label>
+                <select name="" id="membershipInput">
+                    
+                </select>
+            </div>
+        </div>
+        <div class="createUserButtonsContainer">
+            <button>Cancel</button>
+            <button id="createUserButton">New User</button>
+        </div>
+    </div>
+</body>
+</html>

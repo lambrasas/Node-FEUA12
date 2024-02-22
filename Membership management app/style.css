@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    background: white;
+    padding: 15px 0;
+}
+header a:nth-of-type(1){
+    font-weight: 600;
+    color: #687ff1;
+}
+header a:nth-of-type(2){
+    font-weight: 600;
+    text-decoration: none;
+    color:#a8b2be;
+}
+.membershipsTopText{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0 0 0 ;
+}
+.membershipsTopText a{
+    text-decoration: none;
+    background:#687ff1;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+}
+.topTextLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.membershipsContainer{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding: 0 5%;
+    gap: 25px;
+    background-color: #edf2f6;
+    height: 100%;
+}
+.membershipsCardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.membershipCard{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 200px;
+    width: 400px;
+    /* flex: 1; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+.headerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+    padding: 25px 50px 50px 50px;
+    gap: 5px;
+}
+.headerContainer p:nth-of-type(1){
+    font-size: 22px;
+    font-weight: 700;
+}
+.deleteContainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex: 1;
+    margin: 0 20px 20px 0;
+
+}
+.deleteButton{
+    height: fit-content;
+    width: fit-content;
+    background-color:#fee3e7 ;
+    border: none;
+    padding: 5px;
+    display: flex;
+    border-radius: 5px;
+}
+.deleteButton:hover{
+    cursor: pointer;
+}
+.deleteButton img{
+    color: #f16568;
+}
+

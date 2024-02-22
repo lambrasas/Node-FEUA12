@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    transition: 0.4s;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    background: white;
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+header a:nth-of-type(2){
+    font-weight: 600;
+    color: #687ff1;
+}
+header a:nth-of-type(1){
+    font-weight: 600;
+    text-decoration: none;
+    color:#a8b2be;
+}
+.usersHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.usersHeader h1{
+    font-weight: 400;
+}
+.usersHeader a{
+    text-decoration: none;
+    background:#687ff1;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+}
+.sortDiv select{
+    border: none;
+    background-color:#edf2f6;
+    font-weight: 600;
+    font-size: 16px;
+}
+.sortDiv select option{
+    font-weight: 600;
+}
+
+.sortDiv{
+    font-weight: 600;
+}
+.usersContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.userCard{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 200px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+.userCardInside{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+.userCardInside p:nth-of-type(2) b{
+    color: #687ff1;
+    font-weight: 400;
+}
+.userName{
+    color: #a8b2be;
+    margin-bottom: 20px;
+    
+}
+.emailLine b{
+    color:#687ff1;
+    font-weight: 500;
+}
+.userManegementContainer{
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #edf2f6;
+    height: 100%;
+}
+.sortDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

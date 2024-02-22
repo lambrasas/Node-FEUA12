@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    transition: 0.4s;
+    background-color: #ecf1f5;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    background: white;
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+header a:nth-of-type(1){
+    font-weight: 600;
+    color: #687ff1;
+    text-decoration: none;
+}
+header a:nth-of-type(2){
+    font-weight: 600;
+    text-decoration: none;
+    color:#a8b2be;
+}
+.heading {
+    padding: 20px 0;
+    width: 70%;
+}
+.heading h1{
+    font-weight: 500;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.createMembershipContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    padding: 20px 0;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+}
+label{
+    font-weight: 600;
+    text-align: right;
+}
+.nameLine{
+    display: flex;
+    gap: 20px;
+}
+.priceLine{
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+}
+.priceInputDiv{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.priceInputDiv input{
+    flex-grow: 1;
+    box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    border: none;
+}
+.priceInputDiv input:focus, #name:focus, .descriptionContainer textarea:focus {
+    outline: none;
+}
+.priceInputDiv span{
+    padding: 5px 10px;
+    font-weight: bold;
+    position: absolute; 
+    z-index: 1;
+    
+}
+.descriptionContainer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.bottomButtonsContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 20px;
+    align-items: center;
+}
+.bottomButtonsContainer a{
+    cursor: pointer;
+}
+.nameLine label, .priceLine label, .descriptionContainer label {
+    min-width: 150px;
+    padding-right: 10px;
+}
+#createMembershipButton {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background-color: #687ff1;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.nameLine input, .priceLine input, .descriptionContainer textarea{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    width: 400px;
+    padding: 5px 10px;
+}
+#price{
+    flex-grow: 1;
+    padding: 5px 10px 5px 30px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 0;
+    width: 380px;
+}
